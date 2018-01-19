@@ -110,7 +110,7 @@ public class Minesweeper implements ActionListener{
 
 	}
 
-	// Method for creating mines in random locations
+	// Method for creating mines in random locations, allows for absolute randomness as opposed to semi-randomness
 	public void createRandomMines() {
 		ArrayList<Integer> list = new ArrayList<Integer>();
 		for (int x = 0; x < counts.length; x++) {
